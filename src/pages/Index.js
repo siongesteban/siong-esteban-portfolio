@@ -1,8 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <div>
-    <p>This is the index page</p>
-    <button>Button</button>
+  <div className="container">
+    <p>This is the index page.</p>
   </div>
-);
+)

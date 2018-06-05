@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__list {
+  background: gray;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    text-align: center;
+
+    a {
+      background: crimson;
+      display: block;
+      width: 80px;
+    }
+  }
+}

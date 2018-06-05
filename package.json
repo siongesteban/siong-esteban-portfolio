@@ -1,0 +1,21 @@
+{
+  "name": "siong-esteban-portfolio",
+  "version": "1.0.0",
+  "description": "The official portfolio website of Siong Esteban, a full stack web developer.",
+  "main": "index.js",
+  "repository": "https://github.com/siongesteban/siong-esteban-portfolio",
+  "author": "Siong Esteban",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

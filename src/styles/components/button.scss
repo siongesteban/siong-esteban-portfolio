@@ -1,0 +1,67 @@
+@import '../variables.scss';
+
+.button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  transition: all .2s ease;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.055);
+    text-decoration: none;
+  }
+
+  &:active {
+    background: #fff;
+    color: $primary-color !important;
+  }
+}
+
+.button--red {
+  @extend .button;
+  color: $pink !important;
+  border-color: $pink;
+
+  &:hover {
+    background: rgba($pink, 0.055);
+  }
+
+  &:active {
+    background: $pink;
+    color: $primary-color;
+  }
+}
+
+.button--blue {
+  @extend .button;
+  color: $blue !important;
+  border-color: $blue;
+
+  &:hover {
+    background: rgba($blue, 0.055);
+  }
+
+  &:active {
+    background: $blue;
+    color: $primary-color;
+  }
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .button {
+    border-width: 3px;
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+}

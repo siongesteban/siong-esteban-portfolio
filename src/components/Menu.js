@@ -8,11 +8,11 @@ export default () => {
     name: 'About',
     exact: true
   }, {
-    route: '/coding',
+    route: '/skills',
     name: 'Skills'
   }, {
-    route: '/life',
-    name: 'Life'
+    route: '/not-a-coder',
+    name: '!coder'
   }, {
     route: '/contact',
     name: 'Contact'

@@ -1,7 +1,9 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 @import './variables.scss';
 
 body {
   background-color: $bg-color;
   background-image: url('../static/images/bg_pattern.png');
   color: #fff;
+  font-family: 'Lato', sans-serif;
 }

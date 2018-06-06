@@ -2,11 +2,37 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/components/menu.css';
 
-export default () => (
-  <div className="menu">
-    <ul className="menu__list">
-      <li><NavLink to="/" exact>Me</NavLink></li>
-      <li><NavLink to="/about">About</NavLink></li>
-    </ul>
-  </div>
-)
+export default () => {
+  const menuItems = [{
+    route: '/',
+    name: 'Me',
+    exact: true
+  }, {
+    route: '/coding',
+    name: 'Skills'
+  }, {
+    route: '/life',
+    name: 'Life'
+  }, {
+    route: '/contact',
+    name: 'Contact'
+  }];
+
+  return (
+    <div className="menu">
+      <ul className="menu__list">
+        {menuItems.map((item) => (
+          <li key={item.name}>
+            <NavLink
+              to={item.route}
+              activeClassName="menu__item--active"
+              exact={item.exact}
+            >
+              {item.name}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}

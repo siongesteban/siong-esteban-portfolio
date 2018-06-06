@@ -5,13 +5,16 @@
 }
 
 .header__picture {
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, $pink, $orange);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  border: double 2px transparent;
   border-radius: 100px;
   display: block;
-  height: 200px;
+  height: 150px;
   margin: 0 auto;
-  width: 200px;
+  width: 150px;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header__picture {
+    height: 200px;
+    width: 200px;
+  }
 }

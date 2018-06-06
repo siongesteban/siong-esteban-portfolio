@@ -8,12 +8,13 @@ export default () => (
     <div className="row justify-content-center">
       <div className="header col-sm-6 col-11">
         <div className="row justify-content-center">
-          <div className="col-md-4">
+          <div className="col">
             <img
               className="header__picture"
               src={portfolioPicture}
               alt="Siong Esteban"
             />
+            <h1 className="header__title">Siong Esteban</h1>
           </div>
         </div>
         <Menu />

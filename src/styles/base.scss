@@ -7,3 +7,13 @@ body {
   color: $primary-color;
   font-family: 'Open Sans', sans-serif;
 }
+
+p {
+  font-size: 13px;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  p {
+    font-size: 16px;
+  }
+}

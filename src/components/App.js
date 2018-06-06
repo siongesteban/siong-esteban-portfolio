@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './Header';
-import Index from '../pages/Index';
+import About from '../pages/About';
 import Coding from '../pages/Coding';
 
 export default () => (
@@ -9,7 +9,7 @@ export default () => (
     <Header />
 
       <Switch>
-        <Route path="/" component={Index} exact />
+        <Route path="/" component={About} exact />
         <Route path="/coding" component={Coding} />
       </Switch>
   </div>

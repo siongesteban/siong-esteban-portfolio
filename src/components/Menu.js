@@ -5,7 +5,7 @@ import '../styles/components/menu.css';
 export default () => {
   const menuItems = [{
     route: '/',
-    name: 'Me',
+    name: 'About',
     exact: true
   }, {
     route: '/coding',

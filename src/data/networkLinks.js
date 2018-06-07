@@ -7,26 +7,26 @@ import faVimeo from '@fortawesome/fontawesome-free-brands/faVimeoV';
 
 export default [{
   name: 'github',
-  url: '#',
+  url: 'https://github.com/siongesteban',
   icon: faGithub
 }, {
   name: 'mail',
-  url: '#',
+  url: 'mailto:siong.esteban@gmail.com',
   icon: faEnvelope
 }, {
   name: 'facebook',
-  url: '#',
+  url: 'https://fb.me/siong.esteban',
   icon: faFacebook
 }, {
   name: 'linkedin',
-  url: '#',
+  url: 'https://linkedin.com/in/jerico-esteban-04aa94122',
   icon: faLinkedin
 }, {
   name: 'instagram',
-  url: '#',
+  url: 'https://instagr.am/siong.esteban',
   icon: faInstagram
 }, {
   name: 'vimeo',
-  url: '#',
+  url: 'https://vimeo.com/scaesfilms',
   icon: faVimeo
-}]
+}];

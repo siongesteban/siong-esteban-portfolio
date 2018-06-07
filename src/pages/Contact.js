@@ -8,7 +8,7 @@ export default () => (
     <div className="row justify-content-center">
       <div className="col-md-5">
         <p className="text-black">
-          Whether you want to collaborate, ask questions or something else, please don't hesitate to send me a message. I'd love to hear from you :).
+          Whether you want to <strong>collaborate</strong>, <strong>ask questions</strong> or something else, please don't hesitate to send me a message. I'd love to hear from you :).
         </p>
         <p className="text-black">
           Use the form below or email me at <a href="mailto:siong.esteban@gmail.com">siong.esteban@gmail.com</a>.

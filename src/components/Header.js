@@ -6,7 +6,7 @@ import '../styles/components/header.css';
 export default () => (
   <div className="container">
     <div className="row justify-content-center">
-      <div className="header col-sm-6 col-11">
+      <div className="header col-sm-8 col-12">
         <div className="row justify-content-center">
           <div className="col">
             <img

@@ -113,3 +113,27 @@
     font-size: 11px;
   }
 }
+
+@media (max-width: 320px) {
+  .footer__quote {
+    font-size: 8px;
+  }
+
+  .footer__icons-container {
+    width: 170px;
+  }
+
+  .footer__icon-link {
+    height: 24px;
+    width: 24px;
+  }
+
+  .footer__icon {
+    padding: 1px;
+    font-size: 14px;
+  }
+
+  .footer__copyright {
+    font-size: 9px;
+  }
+}

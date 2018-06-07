@@ -4,14 +4,14 @@ import '../styles/components/button.css';
 
 export default ({ image, title, description, techs, link }) => (
   <div className="project row">
-    <div className="col-md-8">
+    <div className="col-lg-8">
       <img
         className="project__image"
         src={image}
         alt="Peer"
       />
     </div>
-    <div className="col-md-4">
+    <div className="col-lg-4">
       <h2 className="project__title">{title}</h2>
       <p>{description}</p>
       <div className="project__tech-container">

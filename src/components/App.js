@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import About from '../pages/About';
 import Skills from '../pages/Skills';
+import NotACoder from '../pages/NotACoder';
 
 export default () => (
   <div className="site">
@@ -12,6 +13,7 @@ export default () => (
       <Switch>
         <Route path="/" component={About} exact />
         <Route path="/skills" component={Skills} />
+        <Route path="/not-a-coder" component={NotACoder} />
       </Switch>
       <div className="push"></div>
     </div>

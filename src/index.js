@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './static/css/bootstrap-grid.min.css';
 import './static/css/bootstrap-reboot.min.css';
 import './styles/base.css';
+import {} from 'dotenv/config';
 
 ReactDOM.render((
   <Router>

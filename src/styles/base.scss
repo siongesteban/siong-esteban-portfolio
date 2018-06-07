@@ -10,6 +10,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  pointer-events: none;
+}
+
 p {
   font-size: 13px;
 }
@@ -25,4 +29,14 @@ p {
   
   /* This is the same as the height of the footer */
   margin-bottom: -100px; 
+}
+
+img,
+a,
+.header,
+.skills__header,
+.project__title,
+.project__tech-item,
+.footer__copyright {
+  user-select: none;
 }

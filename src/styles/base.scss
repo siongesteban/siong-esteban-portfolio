@@ -18,9 +18,18 @@ p {
   font-size: 13px;
 }
 
+a {
+  color: $primary-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
 @media (min-width: $desktop-breakpoint) {
   p {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -37,12 +46,23 @@ p {
   text-align: center;
 }
 
+.text-black {
+  color: $primary-color;
+}
+
 img,
-a,
+.button,
 .header,
 .skills__header,
 .project__title,
 .project__tech-item,
 .footer__copyright {
   user-select: none;
+}
+
+.not-a-coder__misc-text {
+  color: $primary-color;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
 }

@@ -51,8 +51,25 @@ export default class NotACoder extends Component {
           <p className="loading">...</p>
         ) : (
           <Container col={12} transparent={true}>
+            <div className="row justify-content-center">
+              <div className="col-md-7">
+                <p className="text-black">
+                  I also want to keep myself busy with other things. I've been filling my <a href="https://instagr.am/siong.esteban">Instagram</a> profile with different photos of different places, or just some things that suddenly took my attention.
+                </p>
+                <p className="text-black">
+                  Here are my 8 most recent posts that I fetched from my account.
+                </p>
+              </div>
+            </div>
             <div className="row">
               {posts}
+            </div>
+            <div className="row justify-content-center">
+              <div className="col-md-7">
+                <p className="not-a-coder__misc-text">
+                  And hey, I shoot <a href="https://smoothsnaps.wordpress.com">portraits</a> and make <a href="https://vimeo.com/scaesfilms">films</a> too!
+                </p>
+              </div>
             </div>
           </Container>
         )}

@@ -17,7 +17,7 @@ export default () => (
           className="form"
           action="https://formspree.io/siong.esteban@gmail.com"
           method="POST"
-          autocomplete="off"
+          autoComplete="off"
         >
           <input
             className="input"

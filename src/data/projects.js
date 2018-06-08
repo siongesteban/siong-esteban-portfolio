@@ -1,7 +1,7 @@
 import peerScreenshot from '../static/images/screenshots/screenshot_peer_siong_esteban_060718.png';
 import imsGridScreenshot from '../static/images/screenshots/screenshot_ims_grid_siong_esteban_060718.png';
 import masterFormScreenshot from '../static/images/screenshots/screenshot_master_form_siong_esteban_060718.png';
-import bingoAppScreenshot from '../static/images/screenshots/screenshot_bingo_app_siong_esteban_060718.png';
+import bingoAppScreenshot from '../static/images/screenshots/screenshot_bingo_app_siong_esteban_060918.png';
 
 export default [{
   title: 'Peer',
@@ -32,6 +32,7 @@ export default [{
   techs: ['Sass', 'jQuery', 'HTML5 Web Storage'],
   image: bingoAppScreenshot,
   link: {
-    github: 'https://github.com/siongesteban/bingo-app'
+    github: 'https://github.com/siongesteban/bingo-app',
+    demo: 'https://bingo-app-060818.firebaseapp.com/'
   }
 }];

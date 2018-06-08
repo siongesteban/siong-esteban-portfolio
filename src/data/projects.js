@@ -2,6 +2,7 @@ import peerScreenshot from '../static/images/screenshots/screenshot_peer_siong_e
 import imsGridScreenshot from '../static/images/screenshots/screenshot_ims_grid_siong_esteban_060718.png';
 import masterFormScreenshot from '../static/images/screenshots/screenshot_master_form_siong_esteban_060718.png';
 import bingoAppScreenshot from '../static/images/screenshots/screenshot_bingo_app_siong_esteban_060918.png';
+import klikScreenshot from '../static/images/screenshots/screenshot_klik_siong_esteban_060918.png';
 
 export default [{
   title: 'Peer',
@@ -34,5 +35,13 @@ export default [{
   link: {
     github: 'https://github.com/siongesteban/bingo-app',
     demo: 'https://bingo-app-060818.firebaseapp.com/'
+  }
+}, {
+  title: 'Klik',
+  description: 'Klik is a mini game where you will need to tap a block that moves to random directions as many times as you can in a minute. It has three difficulties, the harder, the faster the block moves.',
+  techs: ['CSS', 'jQuery', 'ASP.Net MVC 5'],
+  image: klikScreenshot,
+  link: {
+    github: 'https://github.com/siongesteban/klik'
   }
 }];

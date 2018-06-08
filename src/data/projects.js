@@ -6,7 +6,7 @@ import klikScreenshot from '../static/images/screenshots/screenshot_klik_siong_e
 
 export default [{
   title: 'Peer',
-  description: 'It is an offline-first dynamic Single-Page Application that uses the PWA approach. A RESTful Web Service was also built to be consumed by the client app. It uses the Material UI to give more app-like experience to the users when using with mobile.',
+  description: 'It is an offline-first dynamic Single-Page Application that uses the PWA approach. A RESTful Web API was also built to be consumed by the client app. It uses the Material UI to give more app-like experience to the users when using with mobile.',
   techs: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
   image: peerScreenshot,
   link: {

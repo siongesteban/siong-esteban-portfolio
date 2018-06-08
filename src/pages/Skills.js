@@ -45,7 +45,7 @@ export default () => (
       <div className="row justify-content-center">
         <div className="col-md-6">
           <p className="project__intro">
-            Here are some of the projects that I worked on during my college including one from my previous internship.
+            Here are some of my past projects that I built when I was still in college including one from my previous internship.
           </p>
         </div>
       </div>

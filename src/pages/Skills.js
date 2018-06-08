@@ -1,4 +1,5 @@
 import React from 'react';
+import PageTitle from '../components/PageTitle';
 import Container from '../components/Container';
 import Project from '../components/Project';
 import projects from '../data/projects';
@@ -6,6 +7,7 @@ import '../styles/components/skills.css';
 
 export default () => (
   <div>
+    <PageTitle title="Skills" />
     <Container col={10} transparent={true}>
       <div className="skills">
         <h3 className="skills__header">Front End</h3>

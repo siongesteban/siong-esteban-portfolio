@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import PageTitle from '../components/PageTitle';
 import Container from '../components/Container';
 import InstagramPost from '../components/InstagramPost';
 
@@ -47,6 +48,7 @@ export default class NotACoder extends Component {
 
     return (
       <div>
+        <PageTitle title="Not a Coder" />
         {loading ? (
           <p className="loading">...</p>
         ) : (

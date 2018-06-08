@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800';
+@import 'https://fonts.googleapis.com/css?family=Heebo:100';
+@import 'https://fonts.googleapis.com/css?family=Merriweather:300i,700i';
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+  ::-webkit-scrollbar-thumb:active {
+    background: #000; }
+
+::selection {
+  background: #000; }
+
+body {
+  background-color: #fff;
+  background-image: url("../static/images/bg_pattern.png");
+  color: #252525;
+  font-family: 'Open Sans', sans-serif; }
+
+img {
+  pointer-events: none; }
+
+p {
+  font-size: 13px; }
+
+a {
+  color: #252525;
+  text-decoration: underline; }
+  a:hover {
+    color: #252525; }
+
+@media (min-width: 1025px) {
+  p {
+    font-size: 15px; } }
+
+.wrapper {
+  min-height: 100%;
+  /* This is the same as the height of the footer */
+  margin-bottom: -100px; }
+
+.loading {
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-align: center; }
+
+.text-black {
+  color: #252525; }
+
+img,
+a,
+.button,
+.header,
+.skills__header,
+.project__title,
+.project__tech-item,
+.footer__copyright {
+  user-select: none; }
+
+.not-a-coder__misc-text {
+  color: #252525;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center; }

@@ -1,0 +1,67 @@
+/* CSS crop image to square aspect ratio
+ * https://codepen.io/KristinB/pen/tdKvL
+ */
+.instagram__image-block {
+  margin-top: 20px;
+  margin-bottom: 15px; }
+
+.instagram__image-container {
+  border: 1px solid #252525;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5px;
+  vertical-align: top; }
+
+.instagram__image-crop {
+  border-radius: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+  .instagram__image-crop img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    right: -100%;
+    bottom: -100%;
+    left: -100%; }
+  .instagram__image-crop:hover .instagram__image-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1; }
+
+.instagram__image-overlay {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all .3s ease; }
+
+.instagram__heart-icon {
+  color: #ff3838; }
+
+.instagram__like-count {
+  color: #fff;
+  font-weight: 700;
+  margin-left: 10px; }
+
+@media (min-width: 768px) {
+  .instagram__image-container {
+    height: 205px;
+    width: 205px; } }
+
+@media (min-width: 1025px) {
+  .instagram__image-container {
+    height: 250px;
+    width: 250px; } }

@@ -1,0 +1,106 @@
+/* Sticky footer implementation from:
+ * https://dev.to/letsbsocial1/flexbox-sticky-footer-and-react-e1h
+ */
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.content {
+  flex: 1 0 auto;
+  width: 100%; }
+  .content:after {
+    content: '\00a0';
+    display: block;
+    height: 0;
+    visibility: hidden; }
+
+/* End of sticky footer */
+.footer {
+  background-color: #252525;
+  color: #fff;
+  padding-top: 20px;
+  text-align: center; }
+
+.footer__quote {
+  font-family: 'Merriweather', serif;
+  font-size: 12px; }
+
+.footer__quote-name {
+  font-weight: 700; }
+
+.footer__separator {
+  background: #353535;
+  height: 1px;
+  margin: 0 auto;
+  width: 200px; }
+
+.footer__icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 17px auto;
+  width: 290px; }
+
+.footer__icon-link {
+  align-items: center;
+  background: #fff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  position: relative;
+  width: 40px;
+  top: 0;
+  transition: top .2s ease; }
+  .footer__icon-link:hover {
+    top: -3px; }
+  .footer__icon-link:active {
+    top: 0; }
+  .footer__icon-link.github:hover .footer__icon {
+    color: #6e5494; }
+  .footer__icon-link.mail:hover .footer__icon {
+    color: #ea4335; }
+  .footer__icon-link.facebook:hover .footer__icon {
+    color: #3b5998; }
+  .footer__icon-link.linkedin:hover .footer__icon {
+    color: #00a0dc; }
+  .footer__icon-link.instagram:hover .footer__icon {
+    color: #e1306c; }
+  .footer__icon-link.vimeo:hover .footer__icon {
+    color: #1ab7ea; }
+
+.footer__icon {
+  color: #252525;
+  transition: color .2s ease; }
+
+.footer__copyright {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4); }
+
+@media (max-width: 1025px) {
+  .footer__quote {
+    font-size: 10px; }
+  .footer__icons-container {
+    width: 230px; }
+  .footer__icon-link {
+    height: 32px;
+    width: 32px; }
+  .footer__icon {
+    padding: 0;
+    font-size: 16px; }
+  .footer__copyright {
+    font-size: 11px; } }
+
+@media (max-width: 320px) {
+  .footer__quote {
+    font-size: 8px; }
+  .footer__icons-container {
+    width: 170px; }
+  .footer__icon-link {
+    height: 24px;
+    width: 24px; }
+  .footer__icon {
+    padding: 1px;
+    font-size: 14px; }
+  .footer__copyright {
+    font-size: 9px; } }

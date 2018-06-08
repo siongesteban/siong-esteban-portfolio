@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  justify-content: center; }
+
+.menu__list {
+  padding: 0;
+  margin: 0; }
+  .menu__list li {
+    display: inline-block;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase; }
+    .menu__list li a {
+      color: #252525;
+      display: block;
+      font-size: 12px;
+      padding: 5px 10px;
+      text-decoration: none; }
+      .menu__list li a:focus {
+        outline: 0;
+        border-bottom: 1px solid #252525; }
+    @media (min-width: 1025px) {
+      .menu__list li a {
+        font-size: 16px;
+        padding: 10px 20px; } }
+    @media (max-width: 320px) {
+      .menu__list li a {
+        font-size: 10px;
+        padding: 3px 10px; } }
+
+.menu__item--active {
+  font-weight: 700;
+  border-bottom: 1px solid #252525; }

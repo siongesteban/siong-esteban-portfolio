@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import PageTitle from '../components/PageTitle';
 import Container from '../components/Container';
 import Project from '../components/Project';
@@ -8,6 +9,9 @@ import '../styles/components/skills.css';
 export default () => (
   <div>
     <PageTitle title="Skills" />
+    <Helmet>
+      <meta name="description" content="Siong Esteban has built full-stack web applications with different technology stacks. From traditional web apps, Siong has moved on to building Single-Page apps and implementing RESTful APIs using the MERN stack." />
+    </Helmet>
     <Container col={10} transparent={true}>
       <div className="skills">
         <h3 className="skills__header">Front End</h3>

@@ -16,7 +16,7 @@ export default () => (
         When I'm not coding, you can see me making myself busy with taking photographs. If it wasn't for Computer Science, maybe I chose photography as a career. I'm also into filmmaking, btw.
       </p>
       <p>
-        Previously, I had an internship where I worked as a web developer and built a full-stack web application to help the staffs to generate reports, manage and review data of different health facilities over the country.
+        Previously, I had an internship where I worked as a web developer and built a full-stack web application to help the staffs to generate reports, manage and review data from different health facilities over the country.
       </p>
     </Container>
   </div>

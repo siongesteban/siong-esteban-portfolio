@@ -51,7 +51,7 @@ export default () => {
             target="_new"
             title="Download Resume"
           >
-            <FontAwesomeIcon icon={faFileAlt} size="md" />
+            <FontAwesomeIcon icon={faFileAlt} size="1x" />
           </a>
         </li>
       </ul>

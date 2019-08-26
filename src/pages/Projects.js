@@ -12,8 +12,7 @@ export default () => {
   return (
     <div>
       <PageTitle title="Projects" />
-      <Container col={12} elevated>
-        {/* <div className="row justify-content-center">
+      {/* <div className="row justify-content-center">
           <div className="col-md-6">
             <p className="project__intro">
               Here are some of my past projects that I built including one from
@@ -21,17 +20,17 @@ export default () => {
             </p>
           </div>
         </div> */}
-        {projects.map(project => (
+      {projects.map(({ title, image, description, techs, link }) => (
+        <Container key={title} col={12} elevated>
           <Project
-            key={project.title}
-            image={project.image}
-            title={project.title}
-            description={project.description}
-            techs={project.techs}
-            link={project.link}
+            image={image}
+            title={title}
+            description={description}
+            techs={techs}
+            link={link}
           />
-        ))}
-      </Container>
+        </Container>
+      ))}
     </div>
   );
 };

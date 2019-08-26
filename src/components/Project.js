@@ -8,7 +8,7 @@ import '../styles/components/button.scss';
 export default ({ image, title, description, techs, link }) => (
   <div className="project row">
     <div className="col-lg-8">
-      <img className="project__image" src={image} alt="Peer" />
+      <img className="project__image" src={image} alt={title} />
     </div>
     <div className="col-lg-4">
       <h2 className="project__title">{title}</h2>

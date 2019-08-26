@@ -20,9 +20,13 @@
 }
 
 .skills__item {
+  cursor: default;
   font-family: 'Fira Code', monospace;
   font-weight: 300;
-  // text-transform: uppercase;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: $desktop-breakpoint) {

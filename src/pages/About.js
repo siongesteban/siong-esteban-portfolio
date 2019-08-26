@@ -5,7 +5,7 @@ import Container from '../components/Container';
 
 export default () => (
   <div>
-    <PageTitle title="About" />
+    <PageTitle />
     <Container col={8}>
       <p>
         Hi, there. I&apos;m <strong>Siong Esteban</strong> (Jerico is my real

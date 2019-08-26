@@ -28,6 +28,12 @@ export default class NotACoder extends Component {
   }
 
   componentWillUnmount() {
+    const { error } = this.state;
+
+    if (error) {
+      return;
+    }
+
     initialState = {
       ...this.state,
       error: null,

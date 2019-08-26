@@ -12,7 +12,7 @@ export default () => {
   return (
     <div>
       <PageTitle title="Projects" />
-      <Container col={12}>
+      <Container col={12} elevated>
         {/* <div className="row justify-content-center">
           <div className="col-md-6">
             <p className="project__intro">

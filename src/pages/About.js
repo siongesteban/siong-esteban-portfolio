@@ -6,7 +6,7 @@ import Container from '../components/Container';
 export default () => (
   <div>
     <PageTitle />
-    <Container col={8}>
+    <Container col={8} elevated>
       <p>
         Hi, there. I&apos;m <strong>Siong Esteban</strong> (Jerico is my real
         name). I&apos;ve been building full-stack web applications with

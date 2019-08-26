@@ -4,7 +4,6 @@
 
 My official website made with React and deployed to Netlify.
 
-
-[siong.esteban@gmail.com](mailto:siong.esteban@gmail.com)  
-[siongesteban.com](https://siongesteban.netlify.com)  
+[siong.esteban@gmail.com](mailto:siong.esteban@gmail.com)
+[siongesteban.dev](https://siongesteban.dev)
 © 2019 Siong Esteban

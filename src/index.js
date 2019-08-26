@@ -6,9 +6,5 @@ import './static/css/bootstrap-grid.min.css';
 import './static/css/bootstrap-reboot.min.css';
 import './styles/base.css';
 
-if (process.env.NODE_ENV === 'development') {
-  require('dotenv').config();
-}
-
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

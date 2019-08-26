@@ -73,8 +73,8 @@ export default [
     techs: ['Bootstrap', 'Sass', 'jQuery'],
     image: internPortfolioScreenshot,
     link: {
-      github: 'https://github.com/siongesteban/bingo-app',
-      demo: 'https://bingo-app-060818.firebaseapp.com/',
+      github: 'https://github.com/siongesteban/siong-esteban-intern-portfolio',
+      demo: 'https://siongesteban-se05.firebaseapp.com/',
     },
   },
   {
@@ -84,8 +84,8 @@ export default [
     techs: ['Sass', 'jQuery', 'HTML5 Web Storage'],
     image: bingoAppScreenshot,
     link: {
-      github: 'https://github.com/siongesteban/siong-esteban-intern-portfolio',
-      demo: 'https://siongesteban-se05.firebaseapp.com/',
+      github: 'https://github.com/siongesteban/bingo-app',
+      demo: 'https://bingo-app-060818.firebaseapp.com/',
     },
   },
   {

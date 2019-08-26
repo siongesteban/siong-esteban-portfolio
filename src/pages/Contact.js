@@ -1,6 +1,7 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Container from '../components/Container';
+
 import '../styles/components/form.scss';
 import '../styles/components/button.scss';
 
@@ -12,8 +13,9 @@ export default () => (
         <div className="col-md-5">
           <p className="text-black">
             Whether you want to <strong>collaborate</strong>,{' '}
-            <strong>ask questions</strong> or something else, please don&apos;t
-            hesitate to send me a message. I&apos;d love to hear from you :).
+            <strong>ask questions</strong> or <strong>something else</strong>,
+            please don&apos;t hesitate to send me a message. I&apos;d love to
+            hear from you :).
           </p>
           <p className="text-black">
             Use the form below or email me at{' '}
@@ -27,14 +29,14 @@ export default () => (
             autoComplete="off"
           >
             <input
-              className="input"
+              className="input strong"
               type="text"
               name="name"
               placeholder="Name"
               required
             />
             <input
-              className="input"
+              className="input strong"
               type="email"
               name="_replyto"
               placeholder="Email"

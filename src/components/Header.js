@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Menu from './Menu';
-import portfolioPicture from '../static/images/siong_esteban_default_060618.jpg';
+import logo from '../static/images/siong_esteban_logo_black.svg';
 import '../styles/components/header.scss';
 
 export default () => (
@@ -10,11 +10,7 @@ export default () => (
       <div className="header col-sm-8 col-12">
         <div className="row justify-content-center">
           <div className="col">
-            <img
-              className="header__picture"
-              src={portfolioPicture}
-              alt="Siong Esteban"
-            />
+            <img className="header__logo" src={logo} alt="Siong Esteban" />
             <h1 className="header__title">Siong Esteban</h1>
           </div>
         </div>

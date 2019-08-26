@@ -68,9 +68,9 @@ export default class NotACoder extends Component {
                 <p className="text-black">
                   I also want to keep myself busy with other things. I&apos;ve
                   been filling my{' '}
-                  <a href="https://instagr.am/siong.esteban">Instagram</a>{' '}
-                  profile with different photos of different places, or just
-                  some things that suddenly took my attention.
+                  <a href="https://instagr.am/siong.esteban">Instagram</a> with
+                  different photos of different places, or just some things that
+                  suddenly take my attention.
                 </p>
                 <p className="text-black">
                   Here are my 8 most recent posts that I fetched from my
@@ -82,9 +82,8 @@ export default class NotACoder extends Component {
             <div className="row justify-content-center">
               <div className="col-md-7">
                 <p className="not-a-coder__misc-text">
-                  And hey, I shoot{' '}
-                  <a href="https://smoothsnaps.wordpress.com">portraits</a> and
-                  make <a href="https://vimeo.com/scaesfilms">films</a> too!
+                  And hey, I make{' '}
+                  <a href="https://vimeo.com/scaesfilms">films</a> too!
                 </p>
               </div>
             </div>

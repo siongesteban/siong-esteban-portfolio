@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import networkLinks from '../data/networkLinks';
+
 import '../styles/components/footer.css';
 
 export default () => (

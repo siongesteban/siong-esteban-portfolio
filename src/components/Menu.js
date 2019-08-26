@@ -14,6 +14,10 @@ export default () => {
       name: 'Skills',
     },
     {
+      route: '/projects',
+      name: 'Projects',
+    },
+    {
       route: '/not-a-coder',
       name: '!coder',
     },

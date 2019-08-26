@@ -4,6 +4,7 @@
   border-bottom: 1px solid rgb(228, 226, 226);
   padding: 20px 0;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .header__logo {
@@ -17,9 +18,15 @@
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 8px;
-  text-align: center;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.header__subtitle {
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: $desktop-breakpoint) {
@@ -34,11 +41,20 @@
 
   .header__title {
     font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
   }
 }
 
 @media (max-width: 320px) {
   .header__title {
     font-size: 15px;
+  }
+
+  .header__subtitle {
+    font-size: 9px;
   }
 }

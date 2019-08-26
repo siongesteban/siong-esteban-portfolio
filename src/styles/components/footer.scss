@@ -49,7 +49,7 @@
   display: flex;
   justify-content: space-around;
   margin: 17px auto;
-  width: 290px;
+  width: 240px;
 }
 
 .footer__icon-link {
@@ -62,7 +62,7 @@
   position: relative;
   width: 40px;
   top: 0;
-  transition: top .2s ease;
+  transition: top 0.2s ease;
 
   &:hover {
     top: -3px;
@@ -72,17 +72,53 @@
     top: 0;
   }
 
-  &.github { &:hover { .footer__icon { color: #6e5494 } } }
-  &.mail { &:hover { .footer__icon { color: #ea4335 } } }
-  &.facebook { &:hover { .footer__icon { color: #3b5998 } } }
-  &.linkedin { &:hover { .footer__icon { color: #00a0dc } } }
-  &.instagram { &:hover { .footer__icon { color: #e1306c } } }
-  &.vimeo { &:hover { .footer__icon { color: #1ab7ea } } }
+  &.github {
+    &:hover {
+      .footer__icon {
+        color: #6e5494;
+      }
+    }
+  }
+  &.mail {
+    &:hover {
+      .footer__icon {
+        color: #ea4335;
+      }
+    }
+  }
+  &.facebook {
+    &:hover {
+      .footer__icon {
+        color: #3b5998;
+      }
+    }
+  }
+  &.linkedin {
+    &:hover {
+      .footer__icon {
+        color: #00a0dc;
+      }
+    }
+  }
+  &.instagram {
+    &:hover {
+      .footer__icon {
+        color: #e1306c;
+      }
+    }
+  }
+  &.vimeo {
+    &:hover {
+      .footer__icon {
+        color: #1ab7ea;
+      }
+    }
+  }
 }
 
 .footer__icon {
   color: $primary-color;
-  transition: color .2s ease;
+  transition: color 0.2s ease;
 }
 
 .footer__copyright {
@@ -96,7 +132,7 @@
   }
 
   .footer__icons-container {
-    width: 230px;
+    width: 190px;
   }
 
   .footer__icon-link {

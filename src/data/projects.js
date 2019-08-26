@@ -10,7 +10,7 @@ export default [
   {
     title: 'CRWN Clothing',
     description:
-      'A simple E-commerce app with payment powered by Stripe, built with React and written in TypeScript.',
+      'A simple E-commerce app with payment integration powered by Stripe, built with React and written in TypeScript.',
     techs: [
       'TypeScript',
       'React',

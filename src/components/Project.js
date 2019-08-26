@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+//
 import '../styles/components/project.scss';
 import '../styles/components/button.scss';
 
@@ -20,12 +23,24 @@ export default ({ image, title, description, techs, link }) => (
       {link && (
         <div className="project__button-container">
           {link.github && (
-            <a className="button--blue" href={link.github} target="_new">
-              View on GitHub
+            <a
+              className="button--blue"
+              href={link.github}
+              rel="noopener noreferrer"
+              target="_new"
+            >
+              <FontAwesomeIcon icon={faCode} size="lg" />
+              Code
             </a>
           )}
           {link.demo && (
-            <a className="button--red" href={link.demo} target="_new">
+            <a
+              className="button--red"
+              href={link.demo}
+              rel="noopener noreferrer"
+              target="_new"
+            >
+              <FontAwesomeIcon icon={faExternalLinkAlt} size="lg" />
               Demo
             </a>
           )}

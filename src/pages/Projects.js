@@ -13,14 +13,14 @@ export default () => {
     <div>
       <PageTitle title="Projects" />
       <Container col={12}>
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
           <div className="col-md-6">
             <p className="project__intro">
               Here are some of my past projects that I built including one from
               my previous internship.
             </p>
           </div>
-        </div>
+        </div> */}
         {projects.map(project => (
           <Project
             key={project.title}

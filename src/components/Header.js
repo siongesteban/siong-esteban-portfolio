@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
 import portfolioPicture from '../static/images/siong_esteban_default_060618.jpg';
-import '../styles/components/header.css';
+import '../styles/components/header.scss';
 
 export default () => (
   <div className="container">
@@ -21,4 +21,4 @@ export default () => (
       </div>
     </div>
   </div>
-)
+);

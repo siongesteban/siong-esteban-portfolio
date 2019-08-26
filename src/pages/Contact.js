@@ -1,20 +1,24 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle';
 import Container from '../components/Container';
-import '../styles/components/form.css';
-import '../styles/components/button.css';
+import '../styles/components/form.scss';
+import '../styles/components/button.scss';
 
 export default () => (
   <div>
     <PageTitle title="Contact" />
-    <Container col={12} transparent={true}>
+    <Container col={12} transparent>
       <div className="row justify-content-center">
         <div className="col-md-5">
           <p className="text-black">
-            Whether you want to <strong>collaborate</strong>, <strong>ask questions</strong> or something else, please don't hesitate to send me a message. I'd love to hear from you :).
+            Whether you want to <strong>collaborate</strong>,{' '}
+            <strong>ask questions</strong> or something else, please don&apos;t
+            hesitate to send me a message. I&apos;d love to hear from you :).
           </p>
           <p className="text-black">
-            Use the form below or email me at <a href="mailto:siong.esteban@gmail.com">siong.esteban@gmail.com</a>.
+            Use the form below or email me at{' '}
+            <a href="mailto:siong.esteban@gmail.com">siong.esteban@gmail.com</a>
+            .
           </p>
           <form
             className="form"
@@ -32,7 +36,7 @@ export default () => (
             <input
               className="input"
               type="email"
-              name="_replyto" 
+              name="_replyto"
               placeholder="Email"
               required
             />
@@ -42,12 +46,11 @@ export default () => (
               rows="3"
               placeholder="Message"
               required
-            >
-            </textarea>
+            />
             <input className="button" type="submit" value="Send" />
           </form>
         </div>
       </div>
     </Container>
   </div>
-)
+);

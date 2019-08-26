@@ -1,27 +1,32 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../styles/components/menu.css';
+import '../styles/components/menu.scss';
 
 export default () => {
-  const menuItems = [{
-    route: '/',
-    name: 'About',
-    exact: true
-  }, {
-    route: '/skills',
-    name: 'Skills'
-  }, {
-    route: '/not-a-coder',
-    name: '!coder'
-  }, {
-    route: '/contact',
-    name: 'Contact'
-  }];
+  const menuItems = [
+    {
+      route: '/',
+      name: 'About',
+      exact: true,
+    },
+    {
+      route: '/skills',
+      name: 'Skills',
+    },
+    {
+      route: '/not-a-coder',
+      name: '!coder',
+    },
+    {
+      route: '/contact',
+      name: 'Contact',
+    },
+  ];
 
   return (
     <div className="menu">
       <ul className="menu__list">
-        {menuItems.map((item) => (
+        {menuItems.map(item => (
           <li key={item.name}>
             <NavLink
               to={item.route}
@@ -35,4 +40,4 @@ export default () => {
       </ul>
     </div>
   );
-}
+};

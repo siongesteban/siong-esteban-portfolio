@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import faHeart from '@fortawesome/fontawesome-free-solid/faHeart';
-import '../styles/components/instagram.css';
+import '../styles/components/instagram.scss';
 
 export default ({ imageUrl, caption, link, likeCount }) => (
   <div className="col-lg-3 col-md-4 instagram__image-block">

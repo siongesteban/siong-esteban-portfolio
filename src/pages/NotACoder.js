@@ -9,6 +9,7 @@ let initialState = {
   instagramPosts: [],
   loading: true,
   loaded: false,
+  error: null,
 };
 
 export default class NotACoder extends Component {
@@ -27,7 +28,10 @@ export default class NotACoder extends Component {
   }
 
   componentWillUnmount() {
-    initialState = this.state;
+    initialState = {
+      ...this.state,
+      error: null,
+    };
   }
 
   fetchInstagramPosts() {
@@ -41,11 +45,20 @@ export default class NotACoder extends Component {
           loading: false,
           loaded: true,
         }));
+      })
+      .catch(({ message }) => {
+        // eslint-disable-next-line no-console
+        console.error('Instragram post fetch failed.', message);
+
+        this.setState(state => ({
+          ...state,
+          error: message,
+        }));
       });
   }
 
   render() {
-    const { instagramPosts, loading } = this.state;
+    const { instagramPosts, loading, error } = this.state;
     const posts = instagramPosts.map(post => (
       <InstagramPost
         key={post.id}
@@ -59,8 +72,10 @@ export default class NotACoder extends Component {
     return (
       <div>
         <PageTitle title="Not a Coder" />
-        {loading ? (
-          <p className="loading">...</p>
+        {loading || error ? (
+          <p className="loading">
+            {error ? `Something went wrong :'(` : '...'}
+          </p>
         ) : (
           <Container col={12} transparent>
             <div className="row justify-content-center">

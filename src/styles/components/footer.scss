@@ -1,4 +1,5 @@
 @import '../variables.scss';
+@import './animation.scss';
 
 /* Sticky footer implementation from:
  * https://dev.to/letsbsocial1/flexbox-sticky-footer-and-react-e1h
@@ -94,10 +95,16 @@
     }
   }
   &.linkedin {
+    animation: bounce 2s infinite;
+
     &:hover {
       .footer__icon {
         color: #00a0dc;
       }
+    }
+
+    .footer__icon {
+      animation: bounce-color-linkedin 2s infinite;
     }
   }
   &.instagram {

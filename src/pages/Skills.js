@@ -1,20 +1,25 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+
 import PageTitle from '../components/PageTitle';
 import Container from '../components/Container';
 import Project from '../components/Project';
+
 import skills from '../data/skills';
 import projects from '../data/projects';
+
 import '../styles/components/skills.scss';
 
 export default () => {
-  const mySkills = skills.map(skill => (
-    <div className="skills">
-      <h3 className="skills__header">{skill.role}</h3>
-      {skill.groups.map(group => (
-        <div className="skills__container">
-          {group.items.map(item => (
-            <div className="skills__item">{item}</div>
+  const mySkills = skills.map(({ role, groups }) => (
+    <div key={role} className="skills">
+      <h3 className="skills__header">{role}</h3>
+      {groups.map(({ line, items }) => (
+        <div key={line} className="skills__container">
+          {items.map(item => (
+            <div key={item} className="skills__item">
+              {item}
+            </div>
           ))}
         </div>
       ))}

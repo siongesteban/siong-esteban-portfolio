@@ -46,7 +46,7 @@ export default () => {
         ))}
         <li>
           <a
-            href="https://www.google.com/"
+            href="https://drive.google.com/file/d/1-ohjOpXQ_mcjbBP5oEW6cSh8onYiNQHp/view"
             rel="noopener noreferrer"
             target="_new"
             title="Download Resume"

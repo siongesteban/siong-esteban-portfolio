@@ -1,13 +1,11 @@
 @import '../variables.scss';
 
-.form {
-}
-
 .input {
   background: transparent;
   border: 2px solid $primary-color;
   padding: 10px;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
+  font-weight: 700;
 
   &:focus {
     outline: none;
@@ -16,13 +14,14 @@
   }
 }
 
-input, textarea {
+input,
+textarea {
   display: block;
   margin-bottom: 10px !important;
   width: 100%;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   background: $primary-color;
   border: 0;
   color: #fff;
@@ -44,7 +43,7 @@ input[type="submit"] {
     font-size: 14px;
   }
 
-  input[type="submit"] {
+  input[type='submit'] {
     padding: 15px;
   }
 }

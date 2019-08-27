@@ -1,23 +1,61 @@
 import React from 'react';
+
 import PageTitle from '../components/PageTitle';
 import Container from '../components/Container';
 
 export default () => (
   <div>
     <PageTitle />
-    <Container col={8}>
+    <Container col={8} elevated>
       <p>
-        Hi, there. I'm <strong>Siong Esteban</strong> (Jerico is my real name). I've been building full-stack web applications with different technologies throughout my college years. And guess what, I just graduated! Now I'm looking for a job as a developer where I can help build software solutions with the technology stack I'm comfortable with and further enhance my skills.
+        Hi. I&apos;m <strong>Siong Esteban</strong> (<em> Jerico</em> is my real
+        name), a Full Stack Developer from Philippines, with an experience in
+        designing and building scalable Single-page applications and RESTful
+        APIs using modern JavaScript and TypeScript.
       </p>
       <p>
-        I'm currenly living in the Philippines but also willing to work overseas :).
+        I&apos;ve been building full stack web applications using different
+        technologies since college. From school projects to personal ones, the
+        web was the only platform that I preferred using. Not only because you
+        can quickly write and deploy your apps but also because of what
+        JavaScript can do for the web.
       </p>
       <p>
-        When I'm not coding, you can see me making myself busy with taking photographs. If it wasn't for Computer Science, maybe I chose photography as a career. I'm also into filmmaking, btw.
+        When I&apos;m not writing code, you can see me making myself busy in{' '}
+        <a
+          className="light"
+          href="https://instagr.am/siong.esteban"
+          rel="noopener noreferrer"
+          target="_new"
+        >
+          photography
+        </a>{' '}
+        and{' '}
+        <a
+          className="light"
+          href="https://vimeo.com/scaesfilms"
+          rel="noopener noreferrer"
+          target="_new"
+        >
+          filmmaking
+        </a>
+        .
       </p>
       <p>
-        Previously, I had an internship where I worked as a web developer and built a full-stack web application to help the staffs to generate reports, manage and review data from different health facilities over the country.
+        Btw, I&apos;m currently on a job hunt, looking for a remote work. So if
+        you&apos;re someone in need of a developer, go through my portfolio or
+        just download my{' '}
+        <a
+          className="light"
+          href="https://drive.google.com/file/d/1-ohjOpXQ_mcjbBP5oEW6cSh8onYiNQHp/view"
+          rel="noopener noreferrer"
+          target="_new"
+          title="Download Resume"
+        >
+          resume
+        </a>{' '}
+        and let&apos;s see if I&apos;m the one you need.
       </p>
     </Container>
   </div>
-)
+);

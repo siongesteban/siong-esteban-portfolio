@@ -3,43 +3,60 @@
 .header {
   border-bottom: 1px solid rgb(228, 226, 226);
   padding: 20px 0;
+  margin-top: 10px;
   margin-bottom: 25px;
+  text-align: center;
 }
 
-.header__picture {
-  border-radius: 100px;
+.header__logo {
   display: block;
-  height: 150px;
+  height: 50px;
   margin: 0 auto;
-  width: 150px;
+  width: 50;
 }
 
 .header__title {
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 8px;
-  text-align: center;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.header__subtitle {
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: $desktop-breakpoint) {
   .header {
+    // margin-top: 5px;
     margin-bottom: 35px;
   }
 
-  .header__picture {
-    height: 200px;
-    width: 200px;
+  .header__logo {
+    height: 100px;
+    width: 100px;
   }
 
   .header__title {
     font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
   }
 }
 
 @media (max-width: 320px) {
   .header__title {
     font-size: 15px;
+  }
+
+  .header__subtitle {
+    font-size: 9px;
   }
 }

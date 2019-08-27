@@ -16,12 +16,17 @@
 .skills__container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .skills__item {
-  font-family: 'Heebo';
-  font-weight: 100;
-  text-transform: uppercase;
+  cursor: default;
+  font-family: 'Fira Code', monospace;
+  font-weight: 300;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: $desktop-breakpoint) {

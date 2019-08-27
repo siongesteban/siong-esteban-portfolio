@@ -14,7 +14,7 @@
   text-decoration: none;
   text-transform: uppercase;
   padding: 5px 10px;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 
   &:focus {
     outline: none;
@@ -28,6 +28,10 @@
   &:active {
     background: #fff;
     color: $primary-color !important;
+  }
+
+  svg {
+    margin-right: 8px;
   }
 }
 

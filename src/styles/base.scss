@@ -1,6 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800';
-@import 'https://fonts.googleapis.com/css?family=Heebo:100';
-@import 'https://fonts.googleapis.com/css?family=Merriweather:300i,700i';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300i,700i');
+
 @import './variables.scss';
 @import './components/scrollbar.scss';
 
@@ -30,19 +31,23 @@ a {
   &:hover {
     color: $primary-color;
   }
+
+  &.light {
+    color: #fff;
+  }
 }
 
 @media (min-width: $desktop-breakpoint) {
   p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
 .wrapper {
   min-height: 100%;
-  
+
   /* This is the same as the height of the footer */
-  margin-bottom: -100px; 
+  margin-bottom: -100px;
 }
 
 .loading {

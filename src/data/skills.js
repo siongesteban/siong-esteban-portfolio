@@ -1,30 +1,31 @@
 export default [
   {
     role: 'Language',
-    groups: [['JavaScript/ES6', 'TypeScript', 'PHP']],
+    groups: [['TypeScript', 'JavaScript/ES6']],
   },
   {
     role: 'Front End',
     groups: [
-      ['React', 'Redux Thunk', 'Redux Saga'],
-      ['Redux Form', 'Formik', 'Yup', 'Joi'],
-      ['Styled Components', 'Sass'],
-      ['Material UI', 'Semantic UI', 'Bootstrap'],
-      ['PWA', 'Webpack', 'Babel'],
+      ['React', 'Redux-Thunk', 'Redux-Saga'],
+      ['React Material UI', 'Semantic UI'],
+      ['Styled-Components', 'Sass', 'Bootstrap'],
+      ['Formik', 'Redux-Form', 'Yup', 'Joi'],
+      ['Progressive Web Apps'],
+      ['Webpack', 'Babel'],
     ],
   },
   {
     role: 'Back End',
     groups: [
-      ['Node.js', 'Express', 'REST', 'GraphQL'],
+      ['Node.js', 'NestJS', 'Express'],
+      ['REST', 'GraphQL'],
       ['MongoDB', 'PostgreSQL', 'MySQL'],
-      ['Firebase Authentication/Firestore'],
-      ['Mongoose', 'Sequelize', 'Prisma'],
-      ['CodeIgniter', 'Laravel'],
+      ['Sequelize', 'Prisma', 'Mongoose'],
+      ['Firebase', 'Laravel', 'CodeIgniter'],
     ],
   },
   {
     role: 'Testing',
-    groups: [['Mocha', 'Chai', 'Jest', 'Enzyme']],
+    groups: [['Jest', 'Mocha', 'Chai']],
   },
 ];

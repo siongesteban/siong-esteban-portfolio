@@ -20,10 +20,10 @@ export default () => {
       route: '/projects',
       name: 'Projects',
     },
-    {
-      route: '/not-a-coder',
-      name: '!coder',
-    },
+    // {
+    //   route: '/not-a-coder',
+    //   name: '!coder',
+    // },
     {
       route: '/contact',
       name: 'Contact',

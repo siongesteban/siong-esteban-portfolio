@@ -8,10 +8,10 @@ export default () => (
     <PageTitle />
     <Container col={8} elevated>
       <p>
-        Hi. I&apos;m <strong>Siong Esteban</strong> (<em> Jerico</em> is my real
-        name), a Full Stack Developer from Philippines, with an experience in
-        designing and building scalable Single-page applications and RESTful
-        APIs using modern JavaScript and TypeScript.
+        Hi. I&apos;m <strong>Siong Esteban</strong>, a Full Stack Developer from
+        Philippines, experienced in designing and building scalable Single-Page
+        Applications and RESTful APIs with React and Node.js, written in
+        TypeScript.
       </p>
       <p>
         I&apos;ve been building full stack web applications using different
@@ -42,19 +42,19 @@ export default () => (
         .
       </p>
       <p>
-        Btw, I&apos;m currently on a job hunt, looking for a remote work. So if
-        you&apos;re someone in need of a developer, go through my portfolio or
-        just download my{' '}
+        By the way, I&apos;m currently looking for a remote work. So if
+        you&apos;re someone in need of a developer, you can go through my
+        portfolio or just download my{' '}
         <a
           className="light"
-          href="https://drive.google.com/file/d/1-ohjOpXQ_mcjbBP5oEW6cSh8onYiNQHp/view"
+          href={process.env.REACT_APP_RESUME_LINK}
           rel="noopener noreferrer"
           target="_new"
           title="Download Resume"
         >
           resume
         </a>{' '}
-        and let&apos;s see if I&apos;m the one you need.
+        and see if I&apos;m the one you need :D.
       </p>
     </Container>
   </div>

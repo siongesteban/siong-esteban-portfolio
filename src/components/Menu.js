@@ -46,7 +46,7 @@ export default () => {
         ))}
         <li>
           <a
-            href="https://drive.google.com/file/d/1-ohjOpXQ_mcjbBP5oEW6cSh8onYiNQHp/view"
+            href={process.env.REACT_APP_RESUME_LINK}
             rel="noopener noreferrer"
             target="_new"
             title="Download Resume"

@@ -41,21 +41,6 @@ export default () => (
         </a>
         .
       </p>
-      <p>
-        By the way, I&apos;m currently looking for a remote work. So if
-        you&apos;re someone in need of a developer, you can go through my
-        portfolio or just download my{' '}
-        <a
-          className="light"
-          href={process.env.REACT_APP_RESUME_LINK}
-          rel="noopener noreferrer"
-          target="_new"
-          title="Download Resume"
-        >
-          resume
-        </a>{' '}
-        and see if I&apos;m the one you need :D.
-      </p>
     </Container>
   </div>
 );

@@ -20,10 +20,10 @@ export default () => {
       route: '/projects',
       name: 'Projects',
     },
-    {
-      route: '/not-a-coder',
-      name: '!coder',
-    },
+    // {
+    //   route: '/not-a-coder',
+    //   name: '!coder',
+    // },
     {
       route: '/contact',
       name: 'Contact',
@@ -46,7 +46,7 @@ export default () => {
         ))}
         <li>
           <a
-            href="https://drive.google.com/file/d/1-ohjOpXQ_mcjbBP5oEW6cSh8onYiNQHp/view"
+            href={process.env.REACT_APP_RESUME_LINK}
             rel="noopener noreferrer"
             target="_new"
             title="Download Resume"

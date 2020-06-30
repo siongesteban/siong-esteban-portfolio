@@ -9,14 +9,14 @@ import skills from '../data/skills';
 import '../styles/components/skills.scss';
 
 export default () => {
-  const mySkills = skills.map(({ role, groups }) => (
+  const mySkills = skills.map(({ role, groups: skillGroups }) => (
     <div key={role} className="skills">
       <h3 className="skills__header">{role}</h3>
-      {groups.map(({ line, items }) => (
-        <div key={line} className="skills__container">
-          {items.map(item => (
-            <div key={item} className="skills__item">
-              {item}
+      {skillGroups.map((skillGroup, i) => (
+        <div key={i} className="skills__container">
+          {skillGroup.map(skill => (
+            <div key={skill} className="skills__item">
+              {skill}
             </div>
           ))}
         </div>

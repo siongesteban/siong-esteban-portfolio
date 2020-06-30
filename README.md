@@ -1,6 +1,6 @@
 # Siong Esteban
 
-Version 2.0
+Version 2.1.0
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/272b21b3-406a-4247-8025-5d5ddb20d5ab/deploy-status)](https://app.netlify.com/sites/siongesteban/deploys)
 
